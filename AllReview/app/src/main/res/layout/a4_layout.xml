@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/sfondo"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/allert_invio_messaggio"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/allert_invio_messaggio"
+        android:textAlignment="center"
+        android:textSize="18sp"/>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/inserisci_codice"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:hint="@string/inserire_codice"
+            android:inputType="number"/>
+
+        <Button
+            android:id="@+id/bottone_invia_codice"
+            android:layout_width="90dp"
+            android:layout_height="50dp"
+            android:background="@drawable/bottone_verde"
+            android:text="@string/bottone_INVIA_codice"
+            android:textColor="@color/white"/>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/errore_conferma_codice"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="5dp"
+        android:text="@string/errore_conferma_codice"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_red_dark"
+        android:visibility="gone"/>
+
+
+    <TextView
+        android:id="@+id/testo_reinvia_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="45dp"
+        android:text="@string/reinvia_email"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/errore_reinvio_email"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="5dp"
+        android:text="@string/errore_reinvio_email"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_red_dark"
+        android:visibility="gone"/>
+
+</LinearLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="40dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/warning_domanda"
+        android:textSize="14sp"
+        android:textStyle="bold|italic"/>
+
+    <EditText
+        android:id="@+id/testo_domanda"
+        android:layout_width="250dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:hint="@string/inserisci_domanda"
+        android:inputType="textCapSentences|textMultiLine"
+        android:maxLength="2000"
+        android:scrollbars="vertical"/>
+
+    <Button
+        android:id="@+id/invia_domanda"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/bottone_verde"
+        android:gravity="center"
+        android:text="@string/bottone_INVIA_codice"
+        android:textColor="@color/white"/>
+</LinearLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#03b4fa</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="white">#ffffff</color>
+    <color name="azzurrino">#b2dfdb</color>
+    <color name="verdeacqua">#009688</color>
+    <color name="black">#000000</color>
+    <color name="chargebar">#f7ca00</color>
+    <color name="sfondobar">#fff4ae</color>
+    <color name="levelBarProgress">#ffffff</color>
+    <color name="levelBarBack">#c24343</color>
+
+    <color name="red">#FF0000</color>
+    <color name="profile_button_1">#ffe79f</color>
+    <color name="profile_button_2">#fca5a5</color>
+    <color name="profile_button_3">#f1ff87</color>
+    <color name="profile_button_4">#d7ff7f</color>
+    <color name="profile_button_5">#a4fff7</color>
+    <color name="profile_button_6">#d1a3ff</color>
+    <color name="profile_button_7">#f6a0ff</color>
+    <color name="profile_button_8">#92a0ff</color>
+
+    <color name="bottone_login">#00B084</color>
+    <color name="login_scuro">#009671</color>
+    <color name="blue">#0037ff</color>
+    <color name="grey">#AAAAAA</color>
+    <color name="yellow">#fff200</color>
+    <color name="dark_grey">#444444</color>
+    <color name="green_cattivo">#33FF99</color>
+    <color name="backgroundColorPress">#CCCCCC</color>
+    <color name="backgroundColor">#FFFFFF</color>
+    <color name="giallino">#ffffa2</color>
+    <color name="verdino">#CCFFCC</color>
+
+    <color name="barra">#4986A7</color>
+    <color name="colore_rosso_segnalazione">#CC454E</color>
+    <color name="colore_rosso_segnalazione_scuro">#AE2630</color>
+    <color name="sfondo">#EEEEEE</color>
+    <color name="bottone_facebook_color">#4267B2</color>
+    <color name="bottone_facebook_color_scuro">#2751A4</color>
+    <color name="bottone_registrati">#FFAA38</color>
+    <color name="bottone_registrati_scuro">#EC8A08</color>
+    <color name="bottone_anonimo">#D0D0D0</color>
+    <color name="barra_scura">#185B7F</color>
+    <color name="bottone_preferiti">#FFE634</color>
+    <color name="bottone_rimuovi_preferiti">#E5CF2F</color>
+    <color name="bottone_rimuovi_preferiti_scuro">#BFAA12</color>
+    <color name="verdino_light">#DDFFDD</color>
+</resources>

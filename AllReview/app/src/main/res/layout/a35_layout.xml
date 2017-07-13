@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/tvDomanda_Assistenza"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:text="@string/Domanda_Assistenza"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edDomanda_Assistenza"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="10dp"
+        android:hint="@string/Hint_Domanda_Assistenza"
+        android:inputType="textCapSentences|textMultiLine"
+        android:scrollbars="vertical" />
+
+    <TextView
+        android:id="@+id/tvProblema_Assistenza"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:text="@string/Problema_Assistenza" />
+
+    <EditText
+        android:id="@+id/etProblemaAssistenza"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="10dp"
+        android:hint="@string/Hint_Problema_Assistenza"
+        android:inputType="textCapSentences|textMultiLine"
+        android:scrollbars="vertical" />
+
+    <Button
+        android:id="@+id/btnOK"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/bottone_verde"
+        android:gravity="center"
+        android:text="@string/bottone_INVIA_codice"
+        android:textColor="@color/white" />
+
+
+</LinearLayout>

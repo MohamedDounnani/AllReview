@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/sfondo"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/titolo_articolo_da_recensire"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:textSize="24sp"
+        android:textStyle="bold"/>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPager_Crea_recensione"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"/>
+
+    <LinearLayout
+        android:id="@+id/SliderDots"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical|center_horizontal"
+        android:orientation="horizontal"/>
+
+    <RatingBar
+        android:id="@+id/ratingBarCreaRecensione"
+        style="@style/Base.Widget.AppCompat.RatingBar.Indicator"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:isIndicator="false"
+        android:numStars="5"
+        android:stepSize="0.5"
+        android:theme="@style/RatingBar"/>
+
+
+    <EditText
+        android:id="@+id/inserisci_titolo_crea_recensione"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="@string/inserisci_titolo_crea_recensione"
+        android:inputType="textCapSentences|textMultiLine"/>
+
+    <TextView
+        android:id="@+id/errore_titolo"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="5dp"
+        android:text="@string/errore_titolo_recensione"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_red_dark"
+        android:visibility="gone"/>
+
+    <EditText
+        android:id="@+id/inserisci_descrizione_crea_recensione"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_gravity="center_horizontal|center"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="5dp"
+        android:hint="@string/inserisci_descrizione_crea_recensione"
+        android:inputType="textCapSentences|textMultiLine"
+        android:scrollbars="vertical"/>
+
+    <TextView
+        android:id="@+id/errore_descrizione"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="5dp"
+        android:text="@string/errore_descrizione_recensione"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_red_dark"
+        android:visibility="gone"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/bottone_allega_immagine"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/bottone_grigio_anonimo"
+            android:drawableLeft="@mipmap/foto"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="@string/allega_immagine"
+            android:textSize="14sp"/>
+
+        <ImageView
+            android:id="@+id/immagine_crea_recensione"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal|center"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="30dp"
+            android:contentDescription="@string/no_available"/>
+
+        <Button
+            android:id="@+id/bottone_pubblica_recensione"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|center"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/bottone_verde"
+            android:padding="0dp"
+            android:text="@string/bottone_pubblica_recensione"
+            android:textColor="@color/white"/>
+    </LinearLayout>
+
+</LinearLayout>

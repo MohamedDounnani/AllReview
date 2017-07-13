@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@mipmap/home"
+        android:title="@string/Button_home"/>
+
+    <group
+        android:id="@+id/anonimous_group"
+       >
+
+        <item
+            android:id="@+id/nav_registrati"
+            android:icon="@mipmap/write_pen"
+            android:title="@string/registrati"/>
+        <item
+            android:id="@+id/nav_login"
+            android:icon="@mipmap/ic_filter_tilt_shift_black_24dp"
+            android:title="@string/accedi"/>
+    </group>
+
+    <group
+        android:id="@+id/logged_group"
+        >
+        <item
+            android:id="@+id/nav_profilo"
+            android:icon="@mipmap/profilo"
+            android:title="@string/Profilo"/>
+        <item
+            android:id="@+id/nav_notifiche"
+            android:icon="@mipmap/notifiche"
+            android:title="@string/Notifiche"/>
+        <item
+            android:id="@+id/nav_mie_recensioni"
+            android:icon="@mipmap/mie_recensioni_pen"
+            android:title="@string/mie_recensioni"/>
+        <item
+            android:id="@+id/nav_persone_seguo"
+            android:icon="@mipmap/persone_seguite"
+            android:title="@string/persone_seguo"/>
+        <item
+            android:id="@+id/nav_oggetti_seguo"
+            android:icon="@mipmap/preferiti_cuore"
+            android:title="@string/oggetti_seguo"/>
+        <item
+            android:id="@+id/nav_inserisci_recensione"
+            android:icon="@mipmap/write_pen"
+            android:title="@string/inserisci_recensione"/>
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@mipmap/settings_modifica"
+            android:title="@string/action_settings"/>
+        <item
+            android:id="@+id/nav_esci"
+            android:icon="@mipmap/esci"
+            android:title="@string/exit"/>
+    </group>
+
+    <item
+        android:id="@+id/nav_Assistenza"
+        android:icon="@mipmap/help_assistenza"
+        android:title="@string/Assistenza"/>
+
+</menu>

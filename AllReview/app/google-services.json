@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "401874603948",
+    "project_id": "firebase-allreviewapp"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:401874603948:android:4989910e3c68bc58",
+        "android_client_info": {
+          "package_name": "com.example.dounn.menutendina"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "401874603948-4qf6he1j9sm6eaq525v2sa730vbm3tpc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAiMQAeFOk0bS7ORgMRhlN0KcILHHRfYUQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

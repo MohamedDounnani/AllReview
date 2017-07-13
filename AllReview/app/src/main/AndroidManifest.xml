@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.example.dounn.menutendina">
+
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="com.github.hathibelagal.pn.permission.C2D_MESSAGE"/>
+    <permission
+        android:name="com.github.hathibelagal.pn.permission.C2D_MESSAGE"
+        android:protectionLevel="signature"/>
+
+
+    <application
+        android:name=".AllReview"
+        android:allowBackup="true"
+        android:icon="@mipmap/logo2"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/logo2"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".A10_HomePage"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name"
+            android:launchMode="singleTop"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".A14_Notifiche"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/title_activity__notifiche"
+            android:launchMode="singleTask"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".A23_MieRecensioni"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/title_activity_m_recensioni"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".A22_OggettiSeguiti"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/title_activity_oggetti_s"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".A19_PersoneSeguite"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/title_activity_pers_s"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".A15_InserisciRecensione"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/title_activity_i_rec"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".A6_Impostazioni"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/title_activity__impostazioni"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".A35_Assistenza"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/title_activity__assistenza"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".A1_LoginIniziale"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation">
+        </activity>
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id"/>
+
+        <activity
+            android:name=".A4_AttivazioneAccountCodice"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"/>
+        <activity
+            android:name=".A7_ProfiloPrivato"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/title_activity__profile"
+            android:launchMode="singleTask"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".A21_InserisciElemento"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/title_activity_a21__inserisci_elemento"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity
+            android:name=".A26_RisultatiRicerca"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/Risultati_ricerca">
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".A5_InfoPunteggi"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation">
+        </activity>
+        <activity
+            android:name=".A12_Classifica"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation">
+        </activity>
+        <activity
+            android:name=".A16_CreaRecensione"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/title_activity__crearecensione"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity
+            android:name=".A13_ModificaProfilo"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation">
+        </activity>
+        <activity
+            android:name=".A27_PaginaElemento"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/title_activity__pagina_elemento"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".A20_ProfiloPubblico"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"/>
+        <activity
+            android:name=".A31_FullScreenImage"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"/>
+        <activity
+            android:name=".A17_ModificaElementoAvviso"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"/>
+        <activity
+            android:name=".A18_ModificaElemento"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation">
+        </activity>
+        <activity
+            android:name=".A28_Domande"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:windowSoftInputMode="stateAlwaysHidden">
+        </activity>
+        <activity
+            android:name=".A24_Recensione"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation">
+        </activity>
+        <activity
+            android:name=".A29_Risposte"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation">
+        </activity>
+        <activity
+            android:name=".A30_InserisciDomanda"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation">
+        </activity>
+        <activity
+            android:name=".A32_InserisciRisposta"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation">
+        </activity>
+        <activity android:name=".A0_LaunchActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".A25_RecensioniUtente">
+        </activity>
+
+        <service android:name=".Service.RegistrationService"
+                 android:exported="false" />
+        <service
+            android:name=".Service.TokenRefreshListenerService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.android.gms.iid.InstanceID" />
+            </intent-filter>
+        </service>
+        <service
+            android:name=".Service.NotificationsListenerService"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+            </intent-filter>
+        </service>
+
+        <receiver
+            android:name="com.google.android.gms.gcm.GcmReceiver"
+            android:exported="true"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                <category android:name="com.github.hathibelagal.pn" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

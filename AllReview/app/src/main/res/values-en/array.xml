@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="Categorie">
+        <item>Choose a category</item>
+        <item>Clothing</item>
+        <item>Art and Antiques</item>
+        <item>Cars and Motorcycles</item>
+        <item>Beauty and Health</item>
+        <item>Tickets and events</item>
+        <item>Home, Furniture and DIY</item>
+        <item>Collectibles</item>
+        <item>Trade and industry</item>
+        <item>Home appliances</item>
+        <item>Film, Photography and Video</item>
+        <item>Toys and Modeling</item>
+        <item>Books, Comics and Electronic readers</item>
+        <item>Computer Science and Online World</item>
+        <item>Watches and Jewelery</item>
+        <item>Sport equipment</item>
+        <item>Smartphones</item>
+        <item>Televisions</item>
+        <item>HiFi, Amplifiers e Speakers</item>
+        <item>Games and Console</item>
+        <item>Kitchen</item>
+        <item>Electronics and components</item>
+        <item>Hotels and Lodgings</item>
+        <item>Childhood</item>
+        <item>School, University and Offices</item>
+        <item>Computer e Accessories</item>
+    </string-array>
+
+</resources>

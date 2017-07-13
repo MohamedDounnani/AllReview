@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="40dp">
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/rispondi"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/domanda_testo"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:gravity="center_horizontal"
+        android:lines="5"
+        android:paddingTop="10dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/grey"/>
+
+    <EditText
+        android:id="@+id/testo_risposta"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:gravity="center"
+        android:hint="@string/inserisci_risposta_domanda"
+        android:inputType="textCapSentences|textMultiLine"
+        android:scrollbars="vertical"/>
+
+    <Button
+        android:id="@+id/invia_risposta"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/bottone_verde"
+        android:text="@string/inserisci_una_risposta"
+        android:textColor="@color/white"/>
+</LinearLayout>

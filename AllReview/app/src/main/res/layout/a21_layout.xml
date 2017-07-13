@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/sfondo"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txtcategoria"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="5dp"
+            android:text="@string/Categoria"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+
+        <Spinner
+            android:id="@+id/spinner_crea"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginRight="20dp"
+            android:gravity="center"
+            android:spinnerMode="dropdown"/>
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/txtnomelemento"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:text="@string/Nome_elemento"
+        android:textSize="25sp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/etNomeElemento"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:hint="@string/Name_nome_elemento"
+        android:inputType="textCapSentences|textMultiLine"
+        android:scrollbars="vertical"
+        android:textSize="15sp"/>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="35dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+
+        <ImageView
+            android:id="@+id/imageView_elemento1"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center_horizontal"
+            android:padding="5dp"
+            android:scaleType="fitCenter"
+            android:visibility="gone"/>
+
+
+        <ImageView
+            android:id="@+id/imageView_elemento2"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center_horizontal"
+            android:padding="5dp"
+            android:scaleType="fitCenter"
+            android:visibility="gone"/>
+
+
+        <ImageView
+            android:id="@+id/imageView_elemento3"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center_horizontal"
+            android:padding="5dp"
+            android:scaleType="fitCenter"
+            android:visibility="gone"/>
+
+
+        <ImageView
+            android:id="@+id/imageView_elemento4"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center_horizontal"
+            android:padding="5dp"
+            android:scaleType="fitCenter"
+            android:visibility="gone"/>
+
+
+        <ImageView
+            android:id="@+id/imageView_elemento5"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center_horizontal"
+            android:padding="5dp"
+            android:scaleType="fitCenter"
+            android:visibility="gone"/>
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/btn_foto"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:background="@drawable/bottone_grigio_anonimo"
+        android:drawableLeft="@mipmap/foto"
+        android:padding="5dp"
+        android:text="@string/Aggiungi_Foto"
+        android:textSize="14sp"/>
+
+
+    <TextView
+        android:id="@+id/txtdescrizione"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:text="@string/Descrizione"
+        android:textSize="25sp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/etDescrizione"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal|center"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:hint="@string/Name_nome_elemento"
+        android:inputType="textCapSentences|textMultiLine"
+        android:scrollbars="vertical"
+        android:textSize="18sp"/>
+
+
+    <Button
+        android:id="@+id/btn_crea_elemento"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/bottone_verde"
+        android:text="@string/bottone_INVIA_codice"
+        android:textColor="@color/white"
+        android:textSize="14sp"/>
+
+</LinearLayout>
